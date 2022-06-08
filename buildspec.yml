@@ -15,3 +15,4 @@ phases:
       - terraform validate
       - terraform fmt .
       - "terraform apply --auto-approve"
+
