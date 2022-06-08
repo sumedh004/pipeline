@@ -44,6 +44,11 @@ resource "null_resource" "delete" {
     EOT  
 
 }
+	triggers = {
+
+always_run = timestamp()
+
+}
    depends_on = [aws_route53_zone.private]
 }
 
