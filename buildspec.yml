@@ -13,6 +13,6 @@ phases:
     commands:
       - terraform init
       - terraform validate
-      - terraform fmt .
+      - terraform fmt -recursive
       - "terraform apply --auto-approve"
 
