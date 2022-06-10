@@ -8,4 +8,4 @@ Create Private hosted zone for VPC1. (use input hosted zone)
 
 Associate Private hosted zone with VPC2.
 
-Delete VPC1 after private hosted zone is connected with VPC2.
+Delete VPC1 after private hosted zone is connected with VPC2
